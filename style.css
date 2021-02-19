@@ -1,0 +1,62 @@
+body{ 
+text-align:center;
+	background-color: aqua;
+	
+}
+h1{font-family: 'Ballet', cursive;}
+#sec1{
+  background: linear-gradient(violet,indigo,blue,green,yellow,orange,red);
+		}
+#sec2{
+  background: linear-gradient(to right,greenyellow,green);
+  
+}
+img{
+  height:400px;
+  width: 400px;
+  border-radius: 200px;
+	padding-right: 10px;
+}
+#main{
+  font-size:20px;
+  color:blue;
+  text-decoration:underline;
+}
+#main1{
+  font-size:20px;
+  color:red;
+  font-family:cursive;
+  }
+.benefits{
+  text-decoration:underline;
+  text-shadow:2px 2px red;
+  color:firebrick;
+  font-size:40px;
+  font-family:;
+}
+.info{color:black;
+  font-size:40px;
+  font-family:monospace;
+  
+}
+.menu{
+	list-style: none;
+	font-family: sans-serif;
+	position: absolute;
+	top:10px;
+	right:30px;
+	z-index: 10;
+	cursor:pointer;
+}
+.links{
+	float:left;
+	color:#fff;
+	padding-top: 5px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 5px;
+	font-family: fantasy;
+	font-size: 20px
+}
+.links:hover{background-color:rebeccapurple;}
+
