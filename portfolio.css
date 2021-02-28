@@ -43,11 +43,12 @@ h2{
 .menu{
    list-style: none;
     font-family:cursive;
-   float:right;
+   float:center;
     top:10px;
     right:30px;
     cursor: pointer;
     color:black;
+	
 }
 .menu a{
     color:black !important;
@@ -97,3 +98,8 @@ border: 10px solid #AAAAAA;
 img:hover {
     transform: scale(0.9);
 }
+#contact{ 
+	background:gold;
+	}
+#contact iframe{width:100%;}
+.contact_1{margin-top: 20px;}
