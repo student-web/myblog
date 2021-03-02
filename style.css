@@ -1,62 +1,84 @@
-body{ 
-text-align:center;
+.links{text-decoration-line: underline;
+	text-decoration-color: black;
+	text-align: center;
+	float:left;
+	margin-left:200px;
+	padding-left: 10px;
+	color:blue;
+	font-size: 20px;
+	background-color: chartreuse;
+	
+	
+
+	}
+.links:hover{background-color: coral;
+	
+	
+}
+img{height: 200px;
+width: 200px;
+	border-radius: 100px;
+	border:5px solid;
+	border-color: darkgoldenrod;
+}
+img:hover{background-color: coral;}
+#sec1{
+	padding-top: 50px;
+	background: linear-gradient(pink,yellow);
+text-align: center;}
+h1{font-family: 'Lobster', cursive; }
+#sec2{background: linear-gradient(aqua,yellow);
+text-align: center;}
+
+
+#mycarousel{
+	background:linear-gradient(green,red);
+	padding-bottom:50px;
+	color:darkgoldenrod;
+}
+#mycarousel img{
+	height: 500px;
+	width: 600px;
+}
+p{
+font-family: 'Lobster', cursive;
+	font-size: 50px;
+}
+
+
+#contactmap iframe{
+	
+	width: 100%;
+
+	
+}
+.contact_1{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 40px;
 	background-color: aqua;
 	
 }
-h1{font-family: 'Ballet', cursive;}
-#sec1{
-  background: linear-gradient(violet,indigo,blue,green,yellow,orange,red);
-		}
-#sec2{
-  background: linear-gradient(to right,greenyellow,green);
-  
-}
-img{
-  height:400px;
-  width: 400px;
-  border-radius: 200px;
-	padding-right: 10px;
-}
-#main{
-  font-size:20px;
-  color:blue;
-  text-decoration:underline;
-}
-#main1{
-  font-size:20px;
-  color:red;
-  font-family:cursive;
-  }
-.benefits{
-  text-decoration:underline;
-  text-shadow:2px 2px red;
-  color:firebrick;
-  font-size:40px;
-  font-family:;
-}
-.info{color:black;
-  font-size:40px;
-  font-family:monospace;
-  
-}
-.menu{
-	list-style: none;
-	font-family: sans-serif;
-	position: absolute;
-	top:10px;
-	right:30px;
-	z-index: 10;
-	cursor:pointer;
-}
-.links{
-	float:left;
-	color:#fff;
-	padding-top: 5px;
-	padding-left: 9px;
-	padding-right: 9px;
-	padding-bottom: 5px;
-	font-family: fantasy;
-	font-size: 20px
-}
-.links:hover{background-color:rebeccapurple;}
 
+
+.grid img{
+	padding-bottom: 10px;
+	margin-left: 40px;
+}
+#sec3{background:linear-gradient(pink,magenta);
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+h3{
+	text-align: center;
+	font-family: fantasy;
+	color:darkslategrey;
+	background-color: peachpuff;
+}
+
+	
+
+
+
+
+	
